@@ -11,7 +11,7 @@
 <header>COMPRAR (5 itens)</header>
 
 <div class="container">
-    <form id="form-compra">
+    <form id="form-compra" method="post">
         <div class="form-section">
             <h3>DADOS</h3>
             <label>Nome:</label>
@@ -37,9 +37,10 @@
         </div>
 
         <div class="total-final">
-            <p><b>TOTAL:</b> R$ 375,25</p>
-            <button type="submit" class="btn-finalizar">Finalizar Compra</button>
+    <p><b>TOTAL:</b> R$ <span id="valor-total">0,00</span></p>
+    <button type="submit" class="btn-finalizar">Finalizar Compra</button>
         </div>
+
     </form>
 </div>
 
