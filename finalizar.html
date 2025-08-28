@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<header>COMPRAR (5 itens)</header>
+<header>COMPRAR</header>
 
 <div class="container">
-    <form id="form-compra">
+    <form id="form-compra" method="post">
         <div class="form-section">
             <h3>DADOS</h3>
             <label>Nome:</label>
@@ -20,30 +20,28 @@
             <label>Telefone para contato:</label>
             <input type="tel" name="telefone" placeholder="Ex: (77) 98765-4321" required pattern="\(\d{2}\) \d{5}-\d{4}">
 
-            <label>Endereço (Rua, Número, Complemento, Cidade, Estado, CEP):</label>
-            <input type="text" name="endereco" placeholder="Confirmar endereço" required>
+            <label>Endereço:</label>
+            <input type="text" name="endereco" placeholder="Rua, Número, Cidade..." required>
         </div>
 
         <div class="form-section">
             <h3>FORMA DE PAGAMENTO</h3>
-
-            <label>PIX (copie chave abaixo)</label>
+            <label>PIX:</label>
             <input type="text" value="lkkoi983763ygyek..." readonly>
 
             <h4>CARTÃO</h4>
-            <input type="text" name="cartao" placeholder="número" pattern="\d{13,16}">
-            <input type="text" name="validade" placeholder="data de validade (MM/AA)" pattern="\d{2}/\d{2}">
+            <input type="text" name="cartao" placeholder="Número" pattern="\d{13,16}">
+            <input type="text" name="validade" placeholder="MM/AA" pattern="\d{2}/\d{2}">
             <input type="text" name="cvv" placeholder="CVV" pattern="\d{3}">
         </div>
 
         <div class="total-final">
-            <p><b>TOTAL:</b> R$ 375,25</p>
+            <p><b id="valor-total">R$ 0,00</b></p>
             <button type="submit" class="btn-finalizar">Finalizar Compra</button>
         </div>
     </form>
 </div>
 
 <script src="js/finalizar_compra.js"></script>
-
 </body>
 </html>

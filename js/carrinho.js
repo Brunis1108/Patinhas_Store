@@ -1,38 +1,36 @@
-function atualizarTotais() {
+function atualizarTotal() {
+    const itens = document.querySelectorAll(".item");
     let total = 0;
-    document.querySelectorAll('.item').forEach(item => {
-        if (item.querySelector('input[type=checkbox]').checked) {
-            let preco = parseFloat(item.querySelector('.item-preco').dataset.preco);
-            let qtd = parseInt(item.querySelector('input[type=number]').value);
-            total += preco * qtd;
+
+    itens.forEach(item => {
+        const preco = parseFloat(item.querySelector(".item-preco").dataset.preco);
+        const quantidade = parseInt(item.querySelector("input[type=number]").value);
+        if(item.querySelector("input[type=checkbox]").checked){
+            total += preco * quantidade;
         }
     });
-    document.getElementById('total-produtos').textContent = "R$ " + total.toFixed(2).replace('.', ',');
-    let frete = 18.30;
-    document.getElementById('total-geral').textContent = "R$ " + (total + frete).toFixed(2).replace('.', ',');
+
+    document.getElementById("total-geral").innerText = "R$ " + total.toFixed(2);
 }
 
 function alterarQuantidade(btn, delta) {
-    let input = btn.parentNode.querySelector('input');
-    let novaQtd = parseInt(input.value) + delta;
-    if (novaQtd >= 1) {
-        input.value = novaQtd;
-        atualizarTotais();
-    }
+    const input = btn.parentElement.querySelector("input[type=number]");
+    let valor = parseInt(input.value) + delta;
+    if(valor < 1) valor = 1;
+    input.value = valor;
+    atualizarTotal();
 }
 
 function removerItem(btn) {
-    btn.parentNode.remove();
-    atualizarTotais();
+    btn.parentElement.remove();
+    atualizarTotal();
 }
 
 function finalizarCompra() {
-    let total = document.getElementById('total-geral').textContent;
-    window.location.href = "../Finalizar_pedido/finalizar.html";
+    const total = document.getElementById("total-geral").innerText;
+    localStorage.setItem("totalCompra", total);
+    window.location.href = "finalizar.html";
 }
 
-document.querySelectorAll('input').forEach(el => {
-    el.addEventListener('change', atualizarTotais);
-});
 
-atualizarTotais();
+window.onload = atualizarTotal;
