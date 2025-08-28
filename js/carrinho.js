@@ -8,8 +8,8 @@ function atualizarTotais() {
         }
     });
     document.getElementById('total-produtos').textContent = "R$ " + total.toFixed(2).replace('.', ',');
-    let frete = 18.30;
-    document.getElementById('total-geral').textContent = "R$ " + (total + frete).toFixed(2).replace('.', ',');
+
+    document.getElementById('total-geral').textContent = "R$ " + (total).toFixed(2).replace('.', ',');
 }
 
 function alterarQuantidade(btn, delta) {
@@ -27,9 +27,20 @@ function removerItem(btn) {
 }
 
 function finalizarCompra() {
-    let total = document.getElementById('total-geral').textContent;
-    window.location.href = "../Finalizar_pedido/finalizar.html";
+
+    const itens = [];
+    document.querySelectorAll(".item").forEach(item => {
+        const nome = item.querySelector(".item-info").innerText.split("\n")[0];
+        const preco = parseFloat(item.querySelector(".item-preco").dataset.preco);
+        const qtd = parseInt(item.querySelector("input[type=number]").value);
+        itens.push({ nome, preco, qtd });
+    });
+
+    localStorage.setItem("carrinho", JSON.stringify(itens));
+
+    window.location.href = "finalizar.html";
 }
+
 
 document.querySelectorAll('input').forEach(el => {
     el.addEventListener('change', atualizarTotais);

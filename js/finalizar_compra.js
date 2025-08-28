@@ -26,3 +26,17 @@ document.getElementById("form-compra").addEventListener("submit", function(e) {
     alert("Compra finalizada com sucesso!");
     this.reset();
 });
+
+window.onload = function() {
+    // Pega os itens do carrinho salvos no localStorage
+    const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+
+    let total = 0;
+
+    carrinho.forEach(item => {
+        total += item.preco * item.qtd;
+    });
+
+    // Atualiza o total no HTML
+    document.getElementById("valor-total").textContent = total.toFixed(2).replace(".", ",");
+};
