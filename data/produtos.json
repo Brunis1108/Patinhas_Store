@@ -8,9 +8,13 @@
     "preco": 149.90,
     "estoque": 12,
     "imagem": "../imagens/Aquario_branco_4_litros.png",
-    "tags": ["aquário", "peixe", "iniciantes", "4l"]
+    "tags": [
+      "aquário",
+      "peixe",
+      "iniciantes",
+      "4l"
+    ]
   },
-
   {
     "id": 2,
     "nome": "Ração Premium para Peixes Tropicais 200g",
@@ -20,9 +24,14 @@
     "preco": 29.90,
     "estoque": 35,
     "imagem": "../imagens/Racao_tropicais_200g.png",
-    "tags": ["ração", "peixe", "tropicais", "nutrição"]
-},
-{
+    "tags": [
+      "ração",
+      "peixe",
+      "tropicais",
+      "nutrição"
+    ]
+  },
+  {
     "id": 3,
     "nome": "Filtro Interno Compacto 200L/h",
     "descricao": "Filtro submerso silencioso para aquários de até 30 litros. Mantém a água limpa e oxigenada.",
@@ -31,9 +40,14 @@
     "preco": 89.90,
     "estoque": 20,
     "imagem": "../imagens/Filtro_interno_200l.png",
-    "tags": ["filtro", "aquário", "limpeza", "oxigenação"]
-},
-{
+    "tags": [
+      "filtro",
+      "aquário",
+      "limpeza",
+      "oxigenação"
+    ]
+  },
+  {
     "id": 4,
     "nome": "Termômetro Digital para Aquário",
     "descricao": "Termômetro digital com sensor externo, display de fácil leitura. Mede de 0°C a 50°C.",
@@ -42,10 +56,14 @@
     "preco": 39.90,
     "estoque": 50,
     "imagem": "../imagens/Termometro_digital.png",
-    "tags": ["termômetro", "aquário", "temperatura", "digital"]
-},
-
-{
+    "tags": [
+      "termômetro",
+      "aquário",
+      "temperatura",
+      "digital"
+    ]
+  },
+  {
     "id": 5,
     "nome": "Ração para Peixes Ornamentais",
     "descricao": "Ração balanceada para peixes ornamentais. Promove cores vibrantes e saúde do aquário.",
@@ -54,10 +72,14 @@
     "preco": 22.90,
     "estoque": 38,
     "imagem": "../imagens/ração_peixe.jpg",
-    "tags": ["ração", "peixes", "ornamentais", "nutrição"]
+    "tags": [
+      "ração",
+      "peixes",
+      "ornamentais",
+      "nutrição"
+    ]
   },
-
-{
+  {
     "id": 6,
     "nome": "Enfeite Castelo Subaquático Médio",
     "descricao": "Decoração em formato de castelo medieval, ideal para aquários médios. Resistente e atóxico.",
@@ -66,9 +88,13 @@
     "preco": 59.90,
     "estoque": 15,
     "imagem": "../imagens/Castelo_medio.png",
-    "tags": ["decoração", "aquário", "enfeite", "castelo"]
+    "tags": [
+      "decoração",
+      "aquário",
+      "enfeite",
+      "castelo"
+    ]
   },
-  
   {
     "id": 7,
     "nome": "Aquário para Peixe Betta",
@@ -78,9 +104,13 @@
     "preco": 119.90,
     "estoque": 18,
     "imagem": "../imagens/Aquário_peixe_beta.png",
-    "tags": ["betta", "aquário", "peixe", "decorativo"]
+    "tags": [
+      "betta",
+      "aquário",
+      "peixe",
+      "decorativo"
+    ]
   },
-
   {
     "id": 8,
     "nome": "Enfeite para Aquário – Argolas Coloridas",
@@ -90,9 +120,13 @@
     "preco": 24.90,
     "estoque": 35,
     "imagem": "../imagens/Enfeite_brinquedo_beta.png",
-    "tags": ["aquário", "enfeite", "decoração", "argolas"]
+    "tags": [
+      "aquário",
+      "enfeite",
+      "decoração",
+      "argolas"
+    ]
   },
-
   {
     "id": 9,
     "nome": "Brinquedo Bola Colorida (Kit 4)",
@@ -102,9 +136,13 @@
     "preco": 29.90,
     "estoque": 42,
     "imagem": "../imagens/brinquedo_bola.jpg",
-    "tags": ["brinquedo", "bola", "morder", "interativo"]
+    "tags": [
+      "brinquedo",
+      "bola",
+      "morder",
+      "interativo"
+    ]
   },
-
   {
     "id": 10,
     "nome": "Ossinho Brinquedo",
@@ -114,9 +152,13 @@
     "preco": 19.90,
     "estoque": 50,
     "imagem": "../imagens/ossinho_brinquedo.webp",
-    "tags": ["ossinho", "morder", "brinquedo", "enriquecimento"]
+    "tags": [
+      "ossinho",
+      "morder",
+      "brinquedo",
+      "enriquecimento"
+    ]
   },
-
   {
     "id": 11,
     "nome": "Brinquedo",
@@ -126,9 +168,13 @@
     "preco": 52.90,
     "estoque": 20,
     "imagem": "../imagens/Brinquedo_p_cachorro_com ventosa.jpg",
-    "tags": ["ossinho", "morder", "brinquedo", "enriquecimento"]
+    "tags": [
+      "ossinho",
+      "morder",
+      "brinquedo",
+      "enriquecimento"
+    ]
   },
-
   {
     "id": 12,
     "nome": "Vasilha para ração",
@@ -138,9 +184,11 @@
     "preco": 40.00,
     "estoque": 40,
     "imagem": "../imagens/Comedouro_pet.webp",
-    "tags": ["cachorro", "acessórios"]
+    "tags": [
+      "cachorro",
+      "acessórios"
+    ]
   },
-
   {
     "id": 13,
     "nome": "Kit Caminha para Cachorro",
@@ -150,9 +198,12 @@
     "preco": 324.99,
     "estoque": 20,
     "imagem": "../imagens/kit_completo_caminha_pet.jpg",
-    "tags": ["cachorro", "caminha", "conforto"]
+    "tags": [
+      "cachorro",
+      "caminha",
+      "conforto"
+    ]
   },
-
   {
     "id": 14,
     "nome": "Caminha Pet Macia",
@@ -162,9 +213,13 @@
     "preco": 159.90,
     "estoque": 9,
     "imagem": "../imagens/caminha_pet.jpg",
-    "tags": ["caminha", "conforto", "cães", "gatos"]
+    "tags": [
+      "caminha",
+      "conforto",
+      "cães",
+      "gatos"
+    ]
   },
-
   {
     "id": 15,
     "nome": "Coleira Ajustável com Guia",
@@ -174,9 +229,15 @@
     "preco": 69.90,
     "estoque": 25,
     "imagem": "../imagens/coleira_ajustavel.png",
-    "tags": ["coleira", "guia", "passeio", "cães", "gatos"]
-},
-{
+    "tags": [
+      "coleira",
+      "guia",
+      "passeio",
+      "cães",
+      "gatos"
+    ]
+  },
+  {
     "id": 16,
     "nome": "Comedouro Anti-Ansiedade",
     "descricao": "Comedouro com obstáculos internos que desaceleram a alimentação, prevenindo engasgos e obesidade.",
@@ -185,9 +246,15 @@
     "preco": 89.90,
     "estoque": 18,
     "imagem": "../imagens/comedouro_anti_ansiedade.png",
-    "tags": ["comedouro", "anti-ansiedade", "alimentação", "cães", "gatos"]
-},
-{
+    "tags": [
+      "comedouro",
+      "anti-ansiedade",
+      "alimentação",
+      "cães",
+      "gatos"
+    ]
+  },
+  {
     "id": 17,
     "nome": "Arranhador com Poste e Plataforma",
     "descricao": "Arranhador em sisal com plataforma para descanso. Estimula gatos a afiar as garras e brincar.",
@@ -196,9 +263,14 @@
     "preco": 149.90,
     "estoque": 12,
     "imagem": "../imagens/arranhador_poste.png",
-    "tags": ["arranhador", "gatos", "brincar", "sisal"]
-},
-{
+    "tags": [
+      "arranhador",
+      "gatos",
+      "brincar",
+      "sisal"
+    ]
+  },
+  {
     "id": 18,
     "nome": "Bolinha Interativa com Petiscos",
     "descricao": "Brinquedo interativo que libera petiscos ao rolar. Estimula a mente e mantém o pet ativo.",
@@ -207,10 +279,14 @@
     "preco": 79.90,
     "estoque": 20,
     "imagem": "../imagens/bolinha_interativa.png",
-    "tags": ["brinquedo", "interativo", "petisco", "cães", "gatos"]
-},
-
-  
+    "tags": [
+      "brinquedo",
+      "interativo",
+      "petisco",
+      "cães",
+      "gatos"
+    ]
+  },
   {
     "id": 15,
     "nome": "Kit Banho a Seco para Gatos",
@@ -220,7 +296,12 @@
     "preco": 69.90,
     "estoque": 16,
     "imagem": "../imagens/kit_banho_seco_gatos.jpeg",
-    "tags": ["gato", "banho a seco", "higiene", "limpeza rápida"]
+    "tags": [
+      "gato",
+      "banho a seco",
+      "higiene",
+      "limpeza rápida"
+    ]
   },
   {
     "id": 16,
@@ -231,7 +312,12 @@
     "preco": 79.90,
     "estoque": 21,
     "imagem": "../imagens/kit_higiene_cachorros.jpeg",
-    "tags": ["cachorro", "higiene", "banho", "kit"]
+    "tags": [
+      "cachorro",
+      "higiene",
+      "banho",
+      "kit"
+    ]
   },
   {
     "id": 17,
@@ -242,11 +328,13 @@
     "preco": 64.90,
     "estoque": 27,
     "imagem": "../imagens/kit_shampoo.webp",
-    "tags": ["shampoo", "higiene", "banho", "multiuso"]
+    "tags": [
+      "shampoo",
+      "higiene",
+      "banho",
+      "multiuso"
+    ]
   },
-  
-
-  
   {
     "id": 18,
     "nome": "Shampoo para Gatos",
@@ -256,9 +344,13 @@
     "preco": 29.90,
     "estoque": 33,
     "imagem": "../imagens/shampoo_gato.jpg",
-    "tags": ["gato", "shampoo", "banho", "higiene"]
+    "tags": [
+      "gato",
+      "shampoo",
+      "banho",
+      "higiene"
+    ]
   },
-
   {
     "id": 19,
     "nome": "Brinquedo Interativo com Laser",
@@ -268,9 +360,14 @@
     "preco": 89.90,
     "estoque": 20,
     "imagem": "../imagens/laser_interativo_gato.png",
-    "tags": ["brinquedo", "interativo", "laser", "gato"]
-},
-{
+    "tags": [
+      "brinquedo",
+      "interativo",
+      "laser",
+      "gato"
+    ]
+  },
+  {
     "id": 20,
     "nome": "Cama Redonda Plush",
     "descricao": "Cama redonda macia com bordas altas, proporciona segurança e conforto para gatos dormirem e descansarem.",
@@ -279,9 +376,14 @@
     "preco": 149.90,
     "estoque": 12,
     "imagem": "../imagens/cama_redonda_plush.png",
-    "tags": ["cama", "gato", "plush", "conforto"]
-},
-{
+    "tags": [
+      "cama",
+      "gato",
+      "plush",
+      "conforto"
+    ]
+  },
+  {
     "id": 21,
     "nome": "Ração Premium para Gatos Adultos 1kg",
     "descricao": "Ração seca balanceada, rica em proteínas e vitaminas, ideal para gatos adultos de todas as raças.",
@@ -290,10 +392,14 @@
     "preco": 69.90,
     "estoque": 30,
     "imagem": "../imagens/racao_gato_1kg.png",
-    "tags": ["ração", "gato", "alimentação", "saúde"]
-},
-
-{
+    "tags": [
+      "ração",
+      "gato",
+      "alimentação",
+      "saúde"
+    ]
+  },
+  {
     "id": 22,
     "nome": "Comedouro Suspenso para Pássaros",
     "descricao": "Comedouro em plástico resistente, fácil de fixar em gaiolas pequenas e médias. Ideal para sementes e ração balanceada.",
@@ -302,9 +408,14 @@
     "preco": 29.90,
     "estoque": 35,
     "imagem": "../imagens/comedouro_suspenso.png",
-    "tags": ["comedouro", "pássaros", "gaiola", "alimentação"]
-},
-{
+    "tags": [
+      "comedouro",
+      "pássaros",
+      "gaiola",
+      "alimentação"
+    ]
+  },
+  {
     "id": 23,
     "nome": "Balanço de Madeira para Gaiola",
     "descricao": "Balanço natural de madeira para estimular o lazer e o movimento dos pássaros dentro da gaiola.",
@@ -313,9 +424,14 @@
     "preco": 39.90,
     "estoque": 20,
     "imagem": "../imagens/balanco_madeira.png",
-    "tags": ["balanço", "gaiola", "brinquedo", "pássaros"]
-},
-{
+    "tags": [
+      "balanço",
+      "gaiola",
+      "brinquedo",
+      "pássaros"
+    ]
+  },
+  {
     "id": 24,
     "nome": "Gaiola Pequena para Pássaros",
     "descricao": "Gaiola compacta com poleiros e suporte inferior removível, ideal para canários, periquitos e outros pássaros pequenos.",
@@ -324,8 +440,11 @@
     "preco": 149.90,
     "estoque": 12,
     "imagem": "../imagens/gaiola_pequena.png",
-    "tags": ["gaiola", "pássaros", "periquito", "canário"]
-}
-
-
+    "tags": [
+      "gaiola",
+      "pássaros",
+      "periquito",
+      "canário"
+    ]
+  }
 ]
