@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1001,
+    "nome": "Aquário Branco 4 Litros",
+    "descricao": "Aquário compacto de 4L com acabamento branco. Ideal para iniciantes e espaços pequenos. Indicado para peixes de pequeno porte.",
+    "categoria": "Peixe",
+    "marca": "AquaHome",
+    "preco": 149.90,
+    "estoque": 12,
+    "imagem": "../imagens/Aquario_branco_4_litros.png",
+    "tags": ["aquário", "peixe", "iniciantes", "4l"]
+  },
+  {
+    "id": 1002,
+    "nome": "Aquário para Peixe Betta",
+    "descricao": "Aquário específico para peixe Betta, com tampa e visual clean. Fácil de limpar e manter.",
+    "categoria": "Peixe",
+    "marca": "AquaHome",
+    "preco": 119.90,
+    "estoque": 18,
+    "imagem": "../imagens/Aquário_peixe_beta.png",
+    "tags": ["betta", "aquário", "peixe", "decorativo"]
+  },
+  {
+    "id": 1003,
+    "nome": "Brinquedo Bola Colorida (Kit 4)",
+    "descricao": "Kit com 4 bolas coloridas e texturizadas para estimular a brincadeira. Leves e resistentes.",
+    "categoria": "Cachorro",
+    "marca": "PetPlay",
+    "preco": 29.90,
+    "estoque": 42,
+    "imagem": "../imagens/brinquedo_bola.jpg",
+    "tags": ["brinquedo", "bola", "morder", "interativo"]
+  },
+  {
+    "id": 1004,
+    "nome": "Caminha Pet Macia",
+    "descricao": "Caminha macia com laterais acolchoadas. Conforto para cães e gatos de pequeno a médio porte.",
+    "categoria": "Acessórios",
+    "marca": "ComfyPet",
+    "preco": 159.90,
+    "estoque": 9,
+    "imagem": "../imagens/caminha_pet.jpg",
+    "tags": ["caminha", "conforto", "cães", "gatos"]
+  },
+  {
+    "id": 1005,
+    "nome": "Enfeite para Aquário – Argolas Coloridas",
+    "descricao": "Conjunto de argolas coloridas para enfeitar o aquário e criar esconderijos para os peixes.",
+    "categoria": "Peixe",
+    "marca": "AquaDecor",
+    "preco": 24.90,
+    "estoque": 35,
+    "imagem": "../imagens/Enfeite_brinquedo_beta.png",
+    "tags": ["aquário", "enfeite", "decoração", "argolas"]
+  },
+  {
+    "id": 1006,
+    "nome": "Kit Banho a Seco para Gatos",
+    "descricao": "Kit com produtos de banho a seco específicos para gatos. Limpeza prática, sem necessidade de água.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 69.90,
+    "estoque": 16,
+    "imagem": "../imagens/kit_banho_seco_gatos.jpeg",
+    "tags": ["gato", "banho a seco", "higiene", "limpeza rápida"]
+  },
+  {
+    "id": 1007,
+    "nome": "Kit Higiene para Cachorros",
+    "descricao": "Seleção de itens essenciais de higiene para cães: shampoo, condicionador e spray de limpeza.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 79.90,
+    "estoque": 21,
+    "imagem": "../imagens/kit_higiene_cachorros.jpeg",
+    "tags": ["cachorro", "higiene", "banho", "kit"]
+  },
+  {
+    "id": 1008,
+    "nome": "Kit Shampoo Pet (Multiuso)",
+    "descricao": "Kit com diferentes shampoos para variadas necessidades do pet (pelo claro, hidratação, neutro).",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 64.90,
+    "estoque": 27,
+    "imagem": "../imagens/kit_shampoo.webp",
+    "tags": ["shampoo", "higiene", "banho", "multiuso"]
+  },
+  {
+    "id": 1009,
+    "nome": "Ossinho Brinquedo",
+    "descricao": "Brinquedo em formato de ossinho para mastigação e enriquecimento ambiental. Ajuda a aliviar o estresse.",
+    "categoria": "Cachorro",
+    "marca": "PetPlay",
+    "preco": 19.90,
+    "estoque": 50,
+    "imagem": "../imagens/ossinho_brinquedo.webp",
+    "tags": ["ossinho", "morder", "brinquedo", "enriquecimento"]
+  },
+  {
+    "id": 1010,
+    "nome": "Ração para Peixes Ornamentais",
+    "descricao": "Ração balanceada para peixes ornamentais. Promove cores vibrantes e saúde do aquário.",
+    "categoria": "Peixe",
+    "marca": "AquaFood",
+    "preco": 22.90,
+    "estoque": 38,
+    "imagem": "../imagens/ração_peixe.jpg",
+    "tags": ["ração", "peixes", "ornamentais", "nutrição"]
+  },
+  {
+    "id": 1011,
+    "nome": "Shampoo para Gatos",
+    "descricao": "Shampoo suave para gatos, com fragrância leve e fórmula que não irrita a pele.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 29.90,
+    "estoque": 33,
+    "imagem": "../imagens/shampoo_gato.jpg",
+    "tags": ["gato", "shampoo", "banho", "higiene"]
+  }
+]
