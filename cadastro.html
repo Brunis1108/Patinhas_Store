@@ -23,16 +23,15 @@
     <!-- Formulário central -->
     <div class="form-container">
         <h2>Cadastre-se</h2>
-        <form>
+        <form id="form-cadastro">
             <input type="text" placeholder="Digite seu nome" required>
             <input type="email" placeholder="Digite seu email" required>
             <input type="password" placeholder="Digite sua senha" required>
             <input type="password" placeholder="Confirme sua senha" required>
             <button type="submit">Cadastrar</button>
         </form>
-        <p class="text-small">
-            Já tem conta? <a href="login.html">Conecte-se</a>
-        </p>
+        <p id="msgSucesso" style="display:none; color:green;">✅ Cadastro realizado!</p>
+
     </div>
 
     <script src="js/cadastro.js"></script>

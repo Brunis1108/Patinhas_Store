@@ -11,14 +11,11 @@ document.getElementById("form-cadastro").addEventListener("submit", function (e)
         return;
     }
 
-    // Salva os dados no localStorage
     let usuario = { nome, email, senha };
-    localStorage.setItem("usuario", JSON.stringify(usuario));
+    localStorage.setItem("usuario", JSON.stringify(usuario)); // 🔴 depois trocar para fetch()
 
-    // Mostra mensagem de sucesso
     document.getElementById("msgSucesso").style.display = "block";
 
-    // Redireciona para login após 2 segundos
     setTimeout(() => {
         window.location.href = "login.html";
     }, 2000);
