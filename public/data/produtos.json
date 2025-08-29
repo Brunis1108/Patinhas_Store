@@ -7,7 +7,7 @@
     "marca": "AquaHome",
     "preco": 149.90,
     "estoque": 12,
-    "imagem": "../imagens/Aquario_branco_4_litros.png",
+    "imagem": "imagens/Aquario_branco_4_litros.png",
     "tags": ["aquário", "peixe", "iniciantes", "4l"]
   },
 
