@@ -1,24 +1,29 @@
-const form = document.getElementById("formCadastro");
-const msg = document.getElementById("msgSucesso");
+document.getElementById("form-cadastro").addEventListener("submit", function(e){
+    e.preventDefault();
 
-form.addEventListener("submit", function(e) {
-    e.preventDefault(); // impede envio do form
+    let nome = document.querySelector("input[type='text']").value;
+    let email = document.querySelector("input[type='email']").value;
+    let senha = document.querySelectorAll("input[type='password']")[0].value;
+    let confirmar = document.querySelectorAll("input[type='password']")[1].value;
 
-    const senha = document.getElementById("senha").value;
-    const confSenha = document.getElementById("confSenha").value;
-
-    // Verifica se as senhas coincidem
-    if (senha !== confSenha) {
-        alert("⚠️ As senhas não coincidem. Por favor, digite novamente.");
-        return; // Para aqui se as senhas não baterem
+    if(senha !== confirmar){
+        alert("❌ As senhas não coincidem!");
+        return;
     }
 
-    // Se passou na verificação, mostra a mensagem de sucesso
-    msg.style.display = "block"; // mostra a mensagem
-    form.style.display = "none"; // esconde o formulário
+    // Salva os dados no localStorage
+    let usuario = {
+        nome: nome,
+        email: email,
+        senha: senha
+    };
 
-    // Redireciona para login.html depois de 2 segundos
+    localStorage.setItem("usuario", JSON.stringify(usuario));
+
+    // Mensagem de sucesso
+    document.getElementById("msgSucesso").style.display = "block";
+
     setTimeout(() => {
-        window.location.href = "login.html";
+        window.location.href = "login.html"; 
     }, 2000);
 });
