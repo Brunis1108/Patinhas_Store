@@ -79,7 +79,7 @@
 
   function startAutoplay() {
     stopAutoplay();
-    timer = setInterval(() => btnNext.click(), 5000);
+    timer = setInterval(() => btnNext.click(), 3000);
   }
   function stopAutoplay() {
     if (timer) clearInterval(timer);
