@@ -18,21 +18,24 @@
     <div class="img-pets-right">
         <img src="imagens/img-dog-cat.png" alt="Cachorro deitado">
     </div>
-    
+
     <!-- Formulário central -->
     <div class="form-container">
         <h2>Cadastre-se</h2>
-        <form>
-        
+        <form id="form-cadastro">
+
             <input type="text" placeholder="      Digite seu nome" required>
             <input type="email" placeholder="     Digite seu email" required>
             <input type="password" placeholder="      Digite sua senha" required>
             <input type="password" placeholder="      Confirme sua senha" required>
             <button type="submit">Cadastrar</button>
-        </form>
-        <a href="#">Já tem uma conta? Conecte-se.</a>
-    </div>
 
+        </form>
+        <p id="msgSucesso" class="mensagem sucesso">✅ Cadastro concluído! Você será redirecionado para o login...</p>
+
+        <p class="link">Já tem conta?<a href="login.html">Conecte-se</a></p>
+    </div>
+    <script src="js/cadastro.js"></script>
 </body>
 
 </html>
