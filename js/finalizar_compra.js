@@ -5,4 +5,14 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+const form = document.getElementById('form-compra');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    alert('Compra finalizada com sucesso! Obrigado pela preferência.');
+
+    form.reset();
+
+});
 
