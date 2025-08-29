@@ -14,14 +14,15 @@
     <header>
         <img id="logo" src="imagens/Logo.png" alt="Logo Patinhas Store">
         <!-- Barra de pesquisa -->
-        <form class="search" role="search" aria-label="Buscar produtos">
+        <form id="formBusca" class="search" role="search" aria-label="Buscar produtos">
             <span class="search__icon" aria-hidden="true"></span>
-            <input type="search" class="search__input" placeholder="O que seu pet precisa?" name="q" />
+            <input type="search" id="inputBusca" class="search__input" placeholder="O que seu pet precisa?" name="q" />
         </form>
+
         <img id="sino" src="imagens/sino.png" alt="Icone de sino">
         <div class="user">
             <img id="usuario" src="imagens/User.png" alt="Icone de usuario">
-            <a href="#" class="entrar">Entrar</a>
+            <a href="login.html" class="entrar">Entrar</a>
         </div>
 
         <h1></h1>
@@ -29,33 +30,43 @@
     <nav class="opcoes">
         <div class="menu">
             <div class="item">
-                <img id="gato" src="imagens/gato.png" alt="Aba gatos">
-                <a href="#">Gato</a>
+                <a href="#">
+                    <img id="gato" src="imagens/gato.png" alt="Aba gatos">
+                    <a href="#">Gato</a>
+                </a>
             </div>
             <div class="item">
-                <img src="imagens/cachorro.png" alt="Aba Cachorro">
-                <a href="#">Cachorro</a>
-            </div>
-
-            <div class="item">
-                <img src="imagens/peixe.png" alt="Aba Peixe">
-                <a href="#">Peixe</a>
-            </div>
-
-            <div class="item">
-                <img src="imagens/passaro.png" alt="Aba Pássaro">
-                <a href="#">Pássaro</a>
+                <a href="#">
+                    <img src="imagens/cachorro.png" alt="Aba Cachorro">
+                    <a href="#">Cachorro</a>
+                </a>
             </div>
 
             <div class="item">
-                <img src="imagens/outros.png" alt="Aba Outros">
-                <a href="#">Outros</a>
+                <a href="#">
+                    <img src="imagens/peixe.png" alt="Aba Peixe">
+                    <a href="#">Peixe</a>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#">
+                    <img src="imagens/passaro.png" alt="Aba Pássaro">
+                    <a href="#">Pássaro</a>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#">
+                    <img src="imagens/outros.png" alt="Aba Outros">
+                    <a href="#">Outros</a>
+                </a>
             </div>
         </div>
 
         <div class="cart">
             <a href="carrinho.html">
-                <img src="imagens/carrinho.png" alt=""><a href="#">Carrinho</a>
+                <img src="imagens/carrinho.png" alt=""><a href="carrinho.html">Carrinho</a>
             </a>
         </div>
     </nav>
@@ -82,7 +93,17 @@
         </section>
 
 
-
+        <script>
+            const form = document.getElementById("formBusca");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                const q = document.getElementById("inputBusca").value.trim();
+                if (q) {
+                    // Redireciona para loja.html com querystring
+                    window.location.href = `loja.html?q=${encodeURIComponent(q)}`;
+                }
+            });
+        </script>
     </main>
 
     <footer>
@@ -90,6 +111,7 @@
     </footer>
     <script src="js/carousel.js"></script>
     <script src="js/home-produtos.js"></script>
+    <script src="js/search-loja.js"></script>
 </body>
 
 </html>
