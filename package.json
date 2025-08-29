@@ -1,0 +1,24 @@
+{
+  "name": "patinhas_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunis1108/Patinhas_Store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunis1108/Patinhas_Store/issues"
+  },
+  "homepage": "https://github.com/Brunis1108/Patinhas_Store#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

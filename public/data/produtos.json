@@ -1,0 +1,331 @@
+[
+  {
+    "id": 1,
+    "nome": "Aquário Branco 4 Litros",
+    "descricao": "Aquário compacto de 4L com acabamento branco. Ideal para iniciantes e espaços pequenos. Indicado para peixes de pequeno porte.",
+    "categoria": "Peixe",
+    "marca": "AquaHome",
+    "preco": 149.90,
+    "estoque": 12,
+    "imagem": "../imagens/Aquario_branco_4_litros.png",
+    "tags": ["aquário", "peixe", "iniciantes", "4l"]
+  },
+
+  {
+    "id": 2,
+    "nome": "Ração Premium para Peixes Tropicais 200g",
+    "descricao": "Ração em flocos balanceada, rica em proteínas e vitaminas, ideal para peixes tropicais de água doce.",
+    "categoria": "Peixe",
+    "marca": "NutriFish",
+    "preco": 29.90,
+    "estoque": 35,
+    "imagem": "imagens/Racao_tropicais_200g.png",
+    "tags": ["ração", "peixe", "tropicais", "nutrição"]
+},
+{
+    "id": 3,
+    "nome": "Filtro Interno Compacto 200L/h",
+    "descricao": "Filtro submerso silencioso para aquários de até 30 litros. Mantém a água limpa e oxigenada.",
+    "categoria": "Peixe",
+    "marca": "AquaClear",
+    "preco": 89.90,
+    "estoque": 20,
+    "imagem": "imagens/Filtro_interno_200l.png",
+    "tags": ["filtro", "aquário", "limpeza", "oxigenação"]
+},
+{
+    "id": 4,
+    "nome": "Termômetro Digital para Aquário",
+    "descricao": "Termômetro digital com sensor externo, display de fácil leitura. Mede de 0°C a 50°C.",
+    "categoria": "Peixe",
+    "marca": "ThermoPet",
+    "preco": 39.90,
+    "estoque": 50,
+    "imagem": "imagens/Termometro_digital.png",
+    "tags": ["termômetro", "aquário", "temperatura", "digital"]
+},
+
+{
+    "id": 5,
+    "nome": "Ração para Peixes Ornamentais",
+    "descricao": "Ração balanceada para peixes ornamentais. Promove cores vibrantes e saúde do aquário.",
+    "categoria": "Peixe",
+    "marca": "AquaFood",
+    "preco": 22.90,
+    "estoque": 38,
+    "imagem": "imagens/ração_peixe.jpg",
+    "tags": ["ração", "peixes", "ornamentais", "nutrição"]
+  },
+
+{
+    "id": 6,
+    "nome": "Enfeite Castelo Subaquático Médio",
+    "descricao": "Decoração em formato de castelo medieval, ideal para aquários médios. Resistente e atóxico.",
+    "categoria": "Peixe",
+    "marca": "DecoFish",
+    "preco": 59.90,
+    "estoque": 15,
+    "imagem": "imagens/Castelo_medio.png",
+    "tags": ["decoração", "aquário", "enfeite", "castelo"]
+  },
+  
+  {
+    "id": 7,
+    "nome": "Aquário para Peixe Betta",
+    "descricao": "Aquário específico para peixe Betta, com tampa e visual clean. Fácil de limpar e manter.",
+    "categoria": "Peixe",
+    "marca": "AquaHome",
+    "preco": 119.90,
+    "estoque": 18,
+    "imagem": "imagens/Aquário_peixe_beta.png",
+    "tags": ["betta", "aquário", "peixe", "decorativo"]
+  },
+
+  {
+    "id": 8,
+    "nome": "Enfeite para Aquário – Argolas Coloridas",
+    "descricao": "Conjunto de argolas coloridas para enfeitar o aquário e criar esconderijos para os peixes.",
+    "categoria": "Peixe",
+    "marca": "AquaDecor",
+    "preco": 24.90,
+    "estoque": 35,
+    "imagem": "imagens/Enfeite_brinquedo_beta.png",
+    "tags": ["aquário", "enfeite", "decoração", "argolas"]
+  },
+
+  {
+    "id": 9,
+    "nome": "Brinquedo Bola Colorida (Kit 4)",
+    "descricao": "Kit com 4 bolas coloridas e texturizadas para estimular a brincadeira. Leves e resistentes.",
+    "categoria": "Cachorro",
+    "marca": "PetPlay",
+    "preco": 29.90,
+    "estoque": 42,
+    "imagem": "imagens/brinquedo_bola.jpg",
+    "tags": ["brinquedo", "bola", "morder", "interativo"]
+  },
+
+  {
+    "id": 10,
+    "nome": "Ossinho Brinquedo",
+    "descricao": "Brinquedo em formato de ossinho para mastigação e enriquecimento ambiental. Ajuda a aliviar o estresse.",
+    "categoria": "Cachorro",
+    "marca": "PetPlay",
+    "preco": 19.90,
+    "estoque": 50,
+    "imagem": "imagens/ossinho_brinquedo.webp",
+    "tags": ["ossinho", "morder", "brinquedo", "enriquecimento"]
+  },
+
+  {
+    "id": 11,
+    "nome": "Brinquedo",
+    "descricao": "Brinquedo para cachorro com ventosa",
+    "categoria": "Cachorro",
+    "marca": "The Pets Brasil",
+    "preco": 52.90,
+    "estoque": 20,
+    "imagem": "imagens/Brinquedo_p_cachorro_com ventosa.jpg",
+    "tags": ["ossinho", "morder", "brinquedo", "enriquecimento"]
+  },
+
+  {
+    "id": 12,
+    "nome": "Vasilha para ração",
+    "descricao": "Vasilha para cachorro",
+    "categoria": "Cachorro",
+    "marca": "ComfyPet",
+    "preco": 40.00,
+    "estoque": 40,
+    "imagem": "imagens/Comedouro_pet.webp",
+    "tags": ["cachorro", "acessórios"]
+  },
+
+  {
+    "id": 13,
+    "nome": "Kit Caminha para Cachorro",
+    "descricao": "Caminha para cachorro",
+    "categoria": "Cachorro",
+    "marca": "ComfyPet",
+    "preco": 324.99,
+    "estoque": 20,
+    "imagem": "imagens/kit_completo_caminha_pet.jpg",
+    "tags": ["cachorro", "caminha", "conforto"]
+  },
+
+  {
+    "id": 14,
+    "nome": "Caminha Pet Macia",
+    "descricao": "Caminha macia com laterais acolchoadas. Conforto para cães e gatos de pequeno a médio porte.",
+    "categoria": "Acessórios",
+    "marca": "ComfyPet",
+    "preco": 159.90,
+    "estoque": 9,
+    "imagem": "imagens/caminha_pet.jpg",
+    "tags": ["caminha", "conforto", "cães", "gatos"]
+  },
+
+  {
+    "id": 15,
+    "nome": "Coleira Ajustável com Guia",
+    "descricao": "Coleira resistente e confortável com guia de nylon ajustável. Ideal para passeios seguros de cães e gatos.",
+    "categoria": "Acessórios",
+    "marca": "PetSafe",
+    "preco": 69.90,
+    "estoque": 25,
+    "imagem": "imagens/coleira_ajustavel.png",
+    "tags": ["coleira", "guia", "passeio", "cães", "gatos"]
+},
+{
+    "id": 16,
+    "nome": "Comedouro Anti-Ansiedade",
+    "descricao": "Comedouro com obstáculos internos que desaceleram a alimentação, prevenindo engasgos e obesidade.",
+    "categoria": "Acessórios",
+    "marca": "SlowFeed",
+    "preco": 89.90,
+    "estoque": 18,
+    "imagem": "imagens/comedouro_anti_ansiedade.png",
+    "tags": ["comedouro", "anti-ansiedade", "alimentação", "cães", "gatos"]
+},
+{
+    "id": 17,
+    "nome": "Arranhador com Poste e Plataforma",
+    "descricao": "Arranhador em sisal com plataforma para descanso. Estimula gatos a afiar as garras e brincar.",
+    "categoria": "Acessórios",
+    "marca": "CatFun",
+    "preco": 149.90,
+    "estoque": 12,
+    "imagem": "imagens/arranhador_poste.png",
+    "tags": ["arranhador", "gatos", "brincar", "sisal"]
+},
+{
+    "id": 18,
+    "nome": "Bolinha Interativa com Petiscos",
+    "descricao": "Brinquedo interativo que libera petiscos ao rolar. Estimula a mente e mantém o pet ativo.",
+    "categoria": "Acessórios",
+    "marca": "FunPet",
+    "preco": 79.90,
+    "estoque": 20,
+    "imagem": "imagens/bolinha_interativa.png",
+    "tags": ["brinquedo", "interativo", "petisco", "cães", "gatos"]
+},
+
+  
+  {
+    "id": 15,
+    "nome": "Kit Banho a Seco para Gatos",
+    "descricao": "Kit com produtos de banho a seco específicos para gatos. Limpeza prática, sem necessidade de água.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 69.90,
+    "estoque": 16,
+    "imagem": "imagens/kit_banho_seco_gatos.jpeg",
+    "tags": ["gato", "banho a seco", "higiene", "limpeza rápida"]
+  },
+  {
+    "id": 16,
+    "nome": "Kit Higiene para Cachorros",
+    "descricao": "Seleção de itens essenciais de higiene para cães: shampoo, condicionador e spray de limpeza.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 79.90,
+    "estoque": 21,
+    "imagem": "imagens/kit_higiene_cachorros.jpeg",
+    "tags": ["cachorro", "higiene", "banho", "kit"]
+  },
+  {
+    "id": 17,
+    "nome": "Kit Shampoo Pet (Multiuso)",
+    "descricao": "Kit com diferentes shampoos para variadas necessidades do pet (pelo claro, hidratação, neutro).",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 64.90,
+    "estoque": 27,
+    "imagem": "imagens/kit_shampoo.webp",
+    "tags": ["shampoo", "higiene", "banho", "multiuso"]
+  },
+  
+
+  
+  {
+    "id": 18,
+    "nome": "Shampoo para Gatos",
+    "descricao": "Shampoo suave para gatos, com fragrância leve e fórmula que não irrita a pele.",
+    "categoria": "Higiene",
+    "marca": "PetCare",
+    "preco": 29.90,
+    "estoque": 33,
+    "imagem": "imagens/shampoo_gato.jpg",
+    "tags": ["gato", "shampoo", "banho", "higiene"]
+  },
+
+  {
+    "id": 19,
+    "nome": "Brinquedo Interativo com Laser",
+    "descricao": "Dispositivo automático que projeta pontos de laser aleatórios para entreter o gato e estimular o exercício físico.",
+    "categoria": "Gato",
+    "marca": "PlayCat",
+    "preco": 89.90,
+    "estoque": 20,
+    "imagem": "imagens/laser_interativo_gato.png",
+    "tags": ["brinquedo", "interativo", "laser", "gato"]
+},
+{
+    "id": 20,
+    "nome": "Cama Redonda Plush",
+    "descricao": "Cama redonda macia com bordas altas, proporciona segurança e conforto para gatos dormirem e descansarem.",
+    "categoria": "Gato",
+    "marca": "CozyCat",
+    "preco": 149.90,
+    "estoque": 12,
+    "imagem": "imagens/cama_redonda_plush.png",
+    "tags": ["cama", "gato", "plush", "conforto"]
+},
+{
+    "id": 21,
+    "nome": "Ração Premium para Gatos Adultos 1kg",
+    "descricao": "Ração seca balanceada, rica em proteínas e vitaminas, ideal para gatos adultos de todas as raças.",
+    "categoria": "Gato",
+    "marca": "NutriCat",
+    "preco": 69.90,
+    "estoque": 30,
+    "imagem": "imagens/racao_gato_1kg.png",
+    "tags": ["ração", "gato", "alimentação", "saúde"]
+},
+
+{
+    "id": 22,
+    "nome": "Comedouro Suspenso para Pássaros",
+    "descricao": "Comedouro em plástico resistente, fácil de fixar em gaiolas pequenas e médias. Ideal para sementes e ração balanceada.",
+    "categoria": "Pássaros",
+    "marca": "BirdCare",
+    "preco": 29.90,
+    "estoque": 35,
+    "imagem": "imagens/comedouro_suspenso.png",
+    "tags": ["comedouro", "pássaros", "gaiola", "alimentação"]
+},
+{
+    "id": 23,
+    "nome": "Balanço de Madeira para Gaiola",
+    "descricao": "Balanço natural de madeira para estimular o lazer e o movimento dos pássaros dentro da gaiola.",
+    "categoria": "Pássaros",
+    "marca": "HappyBird",
+    "preco": 39.90,
+    "estoque": 20,
+    "imagem": "imagens/balanco_madeira.png",
+    "tags": ["balanço", "gaiola", "brinquedo", "pássaros"]
+},
+{
+    "id": 24,
+    "nome": "Gaiola Pequena para Pássaros",
+    "descricao": "Gaiola compacta com poleiros e suporte inferior removível, ideal para canários, periquitos e outros pássaros pequenos.",
+    "categoria": "Pássaros",
+    "marca": "BirdHome",
+    "preco": 149.90,
+    "estoque": 12,
+    "imagem": "imagens/gaiola_pequena.png",
+    "tags": ["gaiola", "pássaros", "periquito", "canário"]
+}
+
+
+]
