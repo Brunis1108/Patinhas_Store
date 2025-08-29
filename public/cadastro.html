@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Pet</title>
     <link rel="stylesheet" href="./css/style-cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
 </head>
 
-<body width="100%">
+<body>
 
     <!-- Imagens dos pets -->
     <div class="img-pets-left">
@@ -23,18 +24,16 @@
     <div class="form-container">
         <h2>Cadastre-se</h2>
         <form id="form-cadastro">
-
-            <input type="text" placeholder="      Digite seu nome" required>
-            <input type="email" placeholder="     Digite seu email" required>
-            <input type="password" placeholder="      Digite sua senha" required>
-            <input type="password" placeholder="      Confirme sua senha" required>
+            <input type="text" placeholder="Digite seu nome" required>
+            <input type="email" placeholder="Digite seu email" required>
+            <input type="password" placeholder="Digite sua senha" required>
+            <input type="password" placeholder="Confirme sua senha" required>
             <button type="submit">Cadastrar</button>
-
         </form>
-        <p id="msgSucesso" class="mensagem sucesso">✅ Cadastro concluído! Você será redirecionado para o login...</p>
+        <p id="msgSucesso" style="display:none; color:green;">✅ Cadastro realizado!</p>
 
-        <p class="link">Já tem conta?<a href="login.html">Conecte-se</a></p>
     </div>
+
     <script src="js/cadastro.js"></script>
 </body>
 

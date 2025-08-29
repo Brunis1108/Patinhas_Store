@@ -67,7 +67,6 @@
         <div class="cart">
             <a href="carrinho.html">
                 <img src="imagens/carrinho.png" alt=""><a href="carrinho.html">Carrinho</a>
-            </a>
         </div>
     </nav>
 
@@ -93,6 +92,17 @@
         </section>
 
 
+        <script>
+            const form = document.getElementById("formBusca");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                const q = document.getElementById("inputBusca").value.trim();
+                if (q) {
+                    // Redireciona para loja.html com querystring
+                    window.location.href = `loja.html?q=${encodeURIComponent(q)}`;
+                }
+            });
+        </script>
     </main>
 
     <footer>
