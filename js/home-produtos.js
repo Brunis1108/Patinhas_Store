@@ -66,4 +66,5 @@
 
     grid.appendChild(card);
   }
+  
 })();

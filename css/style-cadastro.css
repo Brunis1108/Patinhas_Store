@@ -3,11 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Inder', sans-serif;
 }
 
-body,
-html {
+html, body {
   height: 100%;
 }
 
@@ -18,7 +17,9 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 20px; /* Evita que conteúdo encoste na borda da tela */
+  min-height: 100vh;
+  padding: 20px;
+  overflow: hidden;
 }
 
 /* Imagens dos pets nas laterais */
@@ -35,8 +36,9 @@ body {
   gap: 5px;
 }
 
-.img-pets-left img {
-  max-width: 300px; /* reduz tamanho para telas menores */
+.img-pets-left img,
+.img-pets-right img {
+  max-width: 300px;
   width: 100%;
   height: auto;
 }
@@ -45,14 +47,9 @@ body {
   right: 0;
 }
 
-.img-pets-right img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-}
-
 /* Formulário central */
-.form-container {
+.form-container,
+.recuperar-senha-form {
   background-color: rgba(161, 227, 177, 0.9);
   padding: 40px 30px;
   border-radius: 15px;
@@ -62,25 +59,39 @@ body {
   text-align: center;
 }
 
-.form-container h2 {
+.form-container h2,
+.recuperar-senha-form h2 {
   margin-bottom: 50px;
   color: #336666;
 }
 
-.form-container input {
+.form-container input,
+.recuperar-senha-form input {
   width: 100%;
   padding: 12px;
   margin: 12px 0;
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 20px;
+  transition: all 0.3s ease;
 }
 
-.form-container input::placeholder {
+.form-container input::placeholder,
+.recuperar-senha-form input::placeholder {
   color: #aaa;
 }
 
-.form-container button {
+/* Efeito de foco */
+.form-container input:focus,
+.recuperar-senha-form input:focus {
+  outline: none;
+  border-color: #59b39d;
+  box-shadow: 0 0 6px rgba(89, 179, 157, 0.5);
+}
+
+/* Botão */
+.form-container button,
+.recuperar-senha-form button {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
@@ -90,41 +101,45 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.form-container button:hover {
+.form-container button:hover,
+.recuperar-senha-form button:hover {
   background-color: #4a9c88;
 }
 
-.form-container a {
+/* Links */
+.form-container a,
+.recuperar-senha-form a {
   display: block;
-  margin-top: 35px;
+  margin-top: 25px;
   font-size: 15px;
   color: #336666;
   text-decoration: none;
 }
 
-.form-container a:hover {
+.form-container a:hover,
+.recuperar-senha-form a:hover {
   text-decoration: underline;
 }
 
-
+/* Mensagens */
 .mensagem {
-    display: none; /* esconde a mensagem*/
-    margin-top: 15px;
-    font-weight: bold;
+  display: none;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .sucesso {
-    color: green;
+  color: green;
 }
 
-.link {
-    color: #336666;
-    margin-top: 20px;
+/* Responsividade - esconde imagens em telas menores */
+@media (max-width: 768px) {
+  .img-pets-left, 
+  .img-pets-right {
+    display: none;
+  }
 }
-
-.a {
-    text-decoration: none;
-}
-
