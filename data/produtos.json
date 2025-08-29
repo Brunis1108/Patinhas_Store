@@ -294,7 +294,7 @@
 },
 
 {
-    "id": 1017,
+    "id": 22,
     "nome": "Comedouro Suspenso para Pássaros",
     "descricao": "Comedouro em plástico resistente, fácil de fixar em gaiolas pequenas e médias. Ideal para sementes e ração balanceada.",
     "categoria": "Pássaros",
@@ -305,7 +305,7 @@
     "tags": ["comedouro", "pássaros", "gaiola", "alimentação"]
 },
 {
-    "id": 1018,
+    "id": 23,
     "nome": "Balanço de Madeira para Gaiola",
     "descricao": "Balanço natural de madeira para estimular o lazer e o movimento dos pássaros dentro da gaiola.",
     "categoria": "Pássaros",
@@ -316,7 +316,7 @@
     "tags": ["balanço", "gaiola", "brinquedo", "pássaros"]
 },
 {
-    "id": 1019,
+    "id": 24,
     "nome": "Gaiola Pequena para Pássaros",
     "descricao": "Gaiola compacta com poleiros e suporte inferior removível, ideal para canários, periquitos e outros pássaros pequenos.",
     "categoria": "Pássaros",
