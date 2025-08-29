@@ -1,4 +1,4 @@
-document.getElementById("form-cadastro").addEventListener("submit", function(e){
+document.getElementById("form-cadastro").addEventListener("submit", function (e) {
     e.preventDefault();
 
     let nome = document.querySelector("input[type='text']").value;
@@ -6,24 +6,20 @@ document.getElementById("form-cadastro").addEventListener("submit", function(e){
     let senha = document.querySelectorAll("input[type='password']")[0].value;
     let confirmar = document.querySelectorAll("input[type='password']")[1].value;
 
-    if(senha !== confirmar){
+    if (senha !== confirmar) {
         alert("❌ As senhas não coincidem!");
         return;
     }
 
     // Salva os dados no localStorage
-    let usuario = {
-        nome: nome,
-        email: email,
-        senha: senha
-    };
-
+    let usuario = { nome, email, senha };
     localStorage.setItem("usuario", JSON.stringify(usuario));
 
-    // Mensagem de sucesso
+    // Mostra mensagem de sucesso
     document.getElementById("msgSucesso").style.display = "block";
 
+    // Redireciona para login após 2 segundos
     setTimeout(() => {
-        window.location.href = "login.html"; 
+        window.location.href = "login.html";
     }, 2000);
 });

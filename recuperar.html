@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperar Senha</title>
+  <link rel="stylesheet" href="css/style-cadastro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="recuperar-senha-form">
+    <h2>Recuperar Senha</h2>
+    <form id="formRecuperacao">
+      <label for="emailRecuperacao" class="sr-only">Email</label>
+      <input type="email" placeholder="Digite seu email para recuperar a senha" id="emailRecuperacao" required>
+
+      <button type="button" onclick="enviarEmailRecuperacao()">Enviar</button>
+
+      <p>
+        <a href="login.html" onclick="mostrarLogin(); return false;">Voltar para login</a>
+      </p>
+    </form>
+  </div>
+
+  <script src="js/cadastro.js"></script>
+</body>
+
+</html>
