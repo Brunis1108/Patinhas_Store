@@ -35,27 +35,8 @@ npm start
 
 ## 👤 Login e Cadastro
 
-Os usuários ficam salvos em:
+Os usuários ficam salvos de forma local
 
-`public/data/usuarios.json`
-
-Exemplo:
-
-```json
-[ 
-  { 
-    "id": 1, 
-    "nome": "Teste", 
-    "email": "teste@teste.com", 
-    "senha": "123456" 
-  }
-]
-```
-
-* **Cadastro** → `cadastro.html` envia os dados para o servidor e salva no JSON.
-* **Login** → `login.html` verifica o email e senha no arquivo JSON.
-  Se o login for válido → redirecionamento para `index.html`.
-  Caso contrário → mostra mensagem de erro.
 
 ## 📌 Melhorias Futuras
 
@@ -63,4 +44,5 @@ Exemplo:
 * Integração com banco de dados reais (MySQL ou MongoDB).
 * Sistema de autenticação com JWT.
 * Layout responsivo para celular.
+
 
